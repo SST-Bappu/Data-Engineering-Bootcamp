@@ -2,6 +2,13 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/HW-1/task4.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/HW-2/task1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/HW-2/task2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/HW-2/task3.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/HW-2/task4.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/fact_data_modeling/base.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/fact_data_modeling/fact_data_modeling.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/fact_data_modeling/fact_data_modeling_DDL.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/week2/NBA_player_network_graph_ddl.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/week2/NBA_players_network_graph.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/week2/player_games_edges.sql" dialect="GenericSQL" />
