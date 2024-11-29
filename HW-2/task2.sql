@@ -6,6 +6,4 @@ CREATE TABLE user_devices_cumulated (
     PRIMARY KEY (user_id, browser_type,"date")
 )
 
-select * from user_devices_cumulated where user_id=326
 
-select count(*) from user_devices_cumulated

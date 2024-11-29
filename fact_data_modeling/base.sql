@@ -9,5 +9,12 @@ CREATE TABLE login_log
     PRIMARY KEY (user_id, login_time)
 )
 
-copy login_log from '/Volumes/Developement/learning/data_engineering_bootcamp/fact_data_modeling/login_logs.csv' delimiter ',' csv header;
-
+CREATE TABLE host_activity
+(
+    id serial,
+    user_id integer,
+    host varchar,
+    activity_date DATE
+)
+select max(activity_date), min(host_activity.activity_date)
+from host_activity
